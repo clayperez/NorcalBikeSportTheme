@@ -38,7 +38,7 @@ function initCalFeed(){
         e.end = e.end || "";
 
         var googleDateTime = e.start.dateTime || e.start.date; //whole day events use date, rather than dateTime
-        var dateAndTime = moment(googleDateTime).format("M/DD/YY");
+        var dateAndTime = moment(googleDateTime).format("dddd MMM D");
 
         //Put it together
         if( !isCachedID( e.recurringEventId, recurringEvents ) && e.summary ) { //only proceed if a recurring event ID hasn't been cached

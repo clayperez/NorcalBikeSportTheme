@@ -8,6 +8,7 @@
   <title>NorCal Bike Sport</title>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <?php wp_head(); ?>
 </head>
 <body>
@@ -16,7 +17,7 @@
     <div class="animated fadeInLeft">
     <div class="large-3 columns">
       <logo>
-        <img src="<?php bloginfo('template_url'); ?>/setupimages/logo.png" alt="" />
+        <img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="" />
       </logo>
     </div><!-- 3 columns -->
     </div><!-- animation -->

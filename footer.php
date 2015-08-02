@@ -36,6 +36,7 @@
   '.js><\/script>')
   </script>
   <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
   
   <script>
     $(document).foundation();

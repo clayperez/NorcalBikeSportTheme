@@ -3,7 +3,7 @@
   <div class="animated fadeInUp">
     
     <div class="row">
-    <div class="large-7 columns">
+    <div class="large-7 columns pinup1">
       <?php the_field('pinup1'); ?>
     </div>
     <div class="large-5 columns">
