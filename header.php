@@ -8,6 +8,7 @@
   <title>NorCal Bike Sport</title>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
+  <link rel="icon" href="<?php bloginfo('template_url'); ?>/favicon.png">
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <?php wp_head(); ?>
 </head>
