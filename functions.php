@@ -1,5 +1,8 @@
 <?php
 
+update_option('siteurl','http://www.norcalcycling.com');
+update_option('home','http://www.norcalcycling.com');
+
 // MENU REGISTRATION
 register_nav_menus(
   array(
