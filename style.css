@@ -9,7 +9,8 @@ Description: 2015 NorCal Cycling Site
 */
 
 
-/* CUSTOM TEXT FLOATER */
+/* CUSTOM TEXT FLOATER FOR FRONT PAGE IMAGES */
+/* Works in conjunction with .pinupAltFloater in index.php */
 .imageTitleFloater {
   color: #fff;
   position: absolute;
@@ -17,6 +18,20 @@ Description: 2015 NorCal Cycling Site
   font-size: 1.5em;
   margin-top: 146px;
   margin-left: 28px;
+}
+
+/* YOUTUBE ASPECT RATIO WRAPPER -- maintains aspect ratio on site */
+.youtubeWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 25px;
+  height: 0;
+}
+.youtubeWrapper iframe {
+  position: absolute;
+  max-width: 554px;
+  width: 100%!important;
+  height: 56.25%!important;
 }
 
 /* TWEAKS TO GET JOSH'S CSS WORKING */
