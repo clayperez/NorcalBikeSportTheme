@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:200,400);
 
+/* FIXES A JAVASCRIPT ERROR -- weird. http://foundation.zurb.com/forum/posts/2130-interchange-51-namespace-set-as-sans-serif */
+.foundation-data-attribute-namespace {
+    font-family: false;
+}
+
+
 *,
 *:before,
 *:after {
